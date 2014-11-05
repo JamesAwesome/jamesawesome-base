@@ -7,3 +7,4 @@ long_description 'Configures the base system'
 version          '0.1.0'
 
 depends 'hostname'
+depends 'users'
