@@ -1,42 +1,25 @@
-# base-cookbook
+# base
 
-TODO: Enter the cookbook description here.
+Configures a base node for James Awesome!
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['base']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+ubuntu: 14.04
 
 ## Usage
 
-### base::default
+### base
 
 Include `base` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[base::default]"
+    "recipe[base]"
   ]
 }
 ```
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: James Awesome <james@wesome.nyc>
