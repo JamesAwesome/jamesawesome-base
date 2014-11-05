@@ -15,7 +15,7 @@ gem 'berkshelf'
 # end
 
 gem 'test-kitchen'
-gem 'kitchen-vagrant'
+gem 'kitchen-vagrant', '>= 0.15.0'
 gem 'rspec'
 gem 'rake'
 gem 'chefspec', '>=3'
