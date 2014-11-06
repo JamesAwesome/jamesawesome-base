@@ -13,3 +13,4 @@ log "Hostname will be set to: #{node['set_fqdn']}"
 include_recipe 'hostname'
 
 include_recipe 'base::users'
+include_recipe 'base::chef-client'
