@@ -39,4 +39,4 @@ $ strainer test
 
 ## License and Authors
 
-Author:: James Awesome <james@wesome.nyc>
+Author:: James Awesome (<james@wesome.nyc>)
