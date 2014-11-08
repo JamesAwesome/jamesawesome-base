@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesAwesome/jamesawesome-base.svg?branch=master)]
+[![Build Status](https://travis-ci.org/JamesAwesome/jamesawesome-base.svg?branch=master)](https://travis-ci.org/JamesAwesome/jamesawesome-base)
 # base
 
 Configures a base node for James Awesome!
