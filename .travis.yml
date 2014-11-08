@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.1.2
+  - 2.1.4
+gemfile:
+  - Gemfile
+install: bundle exec berks install
+script: bundle exec strainer test --except kitchen
