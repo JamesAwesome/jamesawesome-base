@@ -19,19 +19,6 @@ describe 'base::chef-client' do
   end
 
   it 'Should setup the chef client.rb' do
-    expect(chef_run).to create_template('/etc/chef/client.rb').with(
-      variables: {
-        chef_config: {
-          'chef_server_url'        => 'https://getchef.com/example_org',
-          'node_name'              => 'test-node',
-          'validation_client_name' => 'example-validation'
-        },
-        chef_requires: [], 
-        ohai_disabled_plugins: [], 
-        start_handlers: nil, 
-        report_handlers: nil, 
-        exception_handlers: nil
-      }
-    )
+    expect(chef_run).to create_template('/etc/chef/client.rb')
   end
 end
