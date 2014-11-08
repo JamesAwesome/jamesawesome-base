@@ -29,6 +29,14 @@ from the 'users' data_bag. It is included by base::default.
 In order for this recipe to function there must be at least one (1) user with the 'devops' group 
 in the organizations 'users' data_bag.
 
+## Tests
+
+```shell
+$ bundle install
+$ berks vendor cookbooks
+$ strainer test
+```
+
 ## License and Authors
 
 Author:: James Awesome <james@wesome.nyc>
