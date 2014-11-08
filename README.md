@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/JamesAwesome/jamesawesome-base.svg?branch=master)]
 # base
 
 Configures a base node for James Awesome!
