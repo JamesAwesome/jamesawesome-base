@@ -2,7 +2,8 @@ language: ruby
 rvm:
   - 2.1.2
   - 2.1.4
+bundler_args: --jobs 7
 gemfile:
   - Gemfile
-install: bundle exec berks install
+before_script: bundle exec berks vendor cookbooks
 script: bundle exec strainer test --except kitchen

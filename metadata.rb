@@ -6,6 +6,6 @@ description      'Configures the base system'
 long_description 'Configures the base system'
 version          '0.1.2'
 
-depends 'hostname'
 depends 'users'
+depends 'hostname'
 depends 'chef-client'
