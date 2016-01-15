@@ -8,6 +8,6 @@ gemfile:
 before_script: bundle exec berks vendor cookbooks
 script: 
   - bundle exec knife cookbook test $COOKBOOK
-  - bundle exec foodcritic -G -f any -X spec/ $SANDBOX/$COOKBOOK
+  - bundle exec foodcritic -G -f any -X cookbooks/ -X spec/ $SANDBOX/$COOKBOOK
   - bundle exec rspec 
   - bundle exec rubocop

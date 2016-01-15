@@ -9,6 +9,7 @@ AllCops:
     - spec/**/*
     - metadata.rb
     - Vagrantfile
+    - cookbooks/**/*
 
 LineLength:
   Max: 160
