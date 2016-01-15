@@ -10,4 +10,4 @@ script:
   - bundle exec knife cookbook test $COOKBOOK
   - bundle exec foodcritic -G -f any -X spec/ $SANDBOX/$COOKBOOK
   - bundle exec rspec 
-  - bundle exex rubocop
+  - bundle exec rubocop
