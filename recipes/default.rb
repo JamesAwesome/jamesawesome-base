@@ -7,10 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 
-node.override['set_fqdn'] = node.name
-log "Hostname will be set to: #{node['set_fqdn']}"
-
-include_recipe 'hostname'
-
 include_recipe 'base::users'
 include_recipe 'base::chef-client'
