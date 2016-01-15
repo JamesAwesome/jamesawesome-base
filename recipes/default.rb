@@ -8,4 +8,4 @@
 #
 
 include_recipe 'base::users'
-include_recipe 'base::chef-client'
+include_recipe 'base::chef_client'

@@ -1,0 +1,14 @@
+---
+AllCops:
+  Exclude:
+    - Berksfile
+    - .kitchen.yml
+    - .kitchen/**/*
+    - Thorfile
+    - test/**/*
+    - spec/**/*
+    - metadata.rb
+    - Vagrantfile
+
+LineLength:
+  Max: 160
