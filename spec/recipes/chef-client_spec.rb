@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
 
-describe 'base::chef-client' do
+describe 'base::chef_client' do
   let(:chef_run) do ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '14.04') do |node|
     node.set['chef_client']['config'] = {
         :chef_server_url        => 'https://getchef.com/example_org',
