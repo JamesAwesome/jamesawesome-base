@@ -4,7 +4,7 @@ maintainer_email 'james@wesome.nyc'
 license          'Do what you want, don\'t come cryin\''
 description      'Configures the base system'
 long_description 'Configures the base system'
-version          '0.2.0'
+version          '0.2.1'
 
 depends 'users', '~> 2.0.1'
 depends 'chef-client', '~> 4.3.2'
